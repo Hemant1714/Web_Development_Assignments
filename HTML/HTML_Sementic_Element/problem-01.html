@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GLA University - Admission Portal</title>
+</head>
+
+<body>
+
+<header>
+    <h1>GLA University</h1>
+    <p><strong>Admissions & Student Portal</strong></p>
+
+    <nav>
+        <a href="#programs">Programs</a> |
+        <a href="#admission">Admissions</a> |
+        <a href="#scholarship">Scholarships</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<hr>
+
+<main>
+
+    <section>
+        <h2>Welcome to GLA University</h2>
+
+        <p>
+            GLA University provides <strong>quality education</strong>
+            with a focus on innovation and practical learning.
+        </p>
+
+        <figure>
+            <img src="campus.jpg"
+                 alt="GLA University campus"
+                 width="500">
+            <figcaption>GLA University Campus</figcaption>
+        </figure>
+
+        <blockquote>
+            "Education is the foundation of a successful future."
+        </blockquote>
+    </section>
+
+    <hr>
+
+    <section id="programs">
+        <h2>Academic Programs</h2>
+
+        <ul>
+            <li>B.Tech AI & ML</li>
+            <li>B.Tech CSE</li>
+            <li>BCA</li>
+            <li>BBA</li>
+            <li>MBA</li>
+        </ul>
+
+        <h3>Campus Facilities</h3>
+
+        <ul>
+            <li>Modern Laboratories</li>
+            <li>Library</li>
+            <li>Sports Facilities</li>
+            <li>Hostel</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <article>
+        <h2><mark>Admission Announcement 2026</mark></h2>
+
+        <p>
+            Applications are open for the 2026 academic session.
+            Apply before the announced deadline.
+        </p>
+
+        <p>Application Code: <code>GLA-ADM-2026</code></p>
+    </article>
+
+    <hr>
+
+    <section id="admission">
+        <h2>Admission Process</h2>
+
+        <ol>
+            <li>Check eligibility</li>
+            <li>Select your program</li>
+            <li>Fill the application form</li>
+            <li>Submit required documents</li>
+            <li>Complete admission process</li>
+        </ol>
+
+        <h3>Important Terms</h3>
+
+        <dl>
+            <dt><strong>Eligibility</strong></dt>
+            <dd>Requirements needed to apply for a program.</dd>
+
+            <dt><strong>Merit List</strong></dt>
+            <dd>List of students selected according to admission criteria.</dd>
+
+            <dt><strong>Scholarship</strong></dt>
+            <dd>Financial assistance provided to eligible students.</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Program Details</h2>
+
+        <table border="1">
+            <caption>Admission Fee Details</caption>
+
+            <tr>
+                <th>Program</th>
+                <th>Duration</th>
+                <th>Eligibility</th>
+                <th>Fee</th>
+            </tr>
+
+            <tr>
+                <td>B.Tech AI & ML</td>
+                <td>4 Years</td>
+                <td>10+2 PCM</td>
+                <td>₹1,50,000</td>
+            </tr>
+
+            <tr>
+                <td>B.Tech CSE</td>
+                <td>4 Years</td>
+                <td>10+2 PCM</td>
+                <td>₹1,50,000</td>
+            </tr>
+
+            <tr>
+                <td>BCA</td>
+                <td>3 Years</td>
+                <td>10+2</td>
+                <td>₹90,000</td>
+            </tr>
+
+            <tr>
+                <td>BBA</td>
+                <td>3 Years</td>
+                <td>10+2</td>
+                <td>₹85,000</td>
+            </tr>
+
+            <tr>
+                <td>MBA</td>
+                <td>2 Years</td>
+                <td>Graduation</td>
+                <td>₹1,40,000</td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><strong>Application Fee</strong></td>
+                <td>₹1,000</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <aside>
+        <h2>Application Help</h2>
+        <p>
+            Keep your academic documents and personal details ready
+            before starting the application.
+        </p>
+        <a href="#application">Apply Now</a>
+    </aside>
+
+    <hr>
+
+    <section id="application">
+        <h2>Apply Now</h2>
+
+        <form>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name"
+                   minlength="3" maxlength="50" required>
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="mobile">Mobile:</label><br>
+            <input type="tel" id="mobile" name="mobile"
+                   pattern="[0-9]{10}" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label for="program">Select Program:</label><br>
+            <select id="program" name="program" required>
+                <option value="">Choose Program</option>
+                <option>B.Tech AI & ML</option>
+                <option>B.Tech CSE</option>
+                <option>BCA</option>
+                <option>BBA</option>
+                <option>MBA</option>
+            </select>
+            <br><br>
+
+            <p>Study Mode:</p>
+
+            <input type="radio" id="fulltime" name="mode" value="Full-time">
+            <label for="fulltime">Full-time</label>
+
+            <input type="radio" id="online" name="mode" value="Online">
+            <label for="online">Online</label>
+
+            <br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address"
+                      rows="4" cols="40" required></textarea>
+            <br><br>
+
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">
+                I confirm that the information provided is correct.
+            </label>
+
+            <br><br>
+
+            <input type="submit" value="Submit Application">
+            <input type="reset" value="Reset">
+
+        </form>
+    </section>
+
+</main>
+
+<hr>
+
+<footer id="contact">
+    <h2>Contact Us</h2>
+
+    <p>
+        GLA University, Mathura, Uttar Pradesh
+    </p>
+
+    <p>
+        📞 <a href="tel:+911234567890">+91-1234567890</a><br>
+        📧 <a href="mailto:admissions@gla.ac.in">
+            admissions@gla.ac.in
+        </a>
+    </p>
+
+    <a href="https://www.gla.ac.in/" target="_blank">
+        <img src="https://content.jdmagicbox.com/v2/comp/greater-noida/s9/011pxx11.xx11.230331100853.k2s9/catalogue/gla-university-knowledge-park-2-greater-noida-greater-noida-universities-lgcfqcp8ud.jpg"
+             alt="Visit GLA University website"
+             width="300">
+    </a>
+
+    <p>© 2026 GLA University</p>
+</footer>
+
+</body>
+</html>
